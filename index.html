@@ -12,11 +12,11 @@
     <header>
         <nav id="menu">
             <ul>
-                <li><a href="#"><i class="fa-solid fa-house-chimney"></i></a></li>
-                <li><a href="#"><i class="fa-solid fa-microchip"></i></a></li>
-                <li><a href="#"><i class="fa-solid fa-graduation-cap"></i></a></li>
-                <li><a href="#"><i class="fa-solid fa-diagram-project"></i></a></li>
-                <li><a href="#"><i class="fa-solid fa-circle-half-stroke"></i></a></li>
+                <li><a href="#ficha" class="link"><i class="fa-solid fa-house-chimney"></i></a></li>
+                <li><a href="#skill" class="link"><i class="fa-solid fa-microchip"></i></a></li>
+                <li><a href="#formacao" class="link"><i class="fa-solid fa-graduation-cap"></i></a></li>
+                <li><a href="#projetos" class="link"><i class="fa-solid fa-diagram-project"></i></a></li>
+                <li><a href="#" class="link" id="botao-tema"><i class="fa-solid fa-solid fa-moon"></i></a></li>
             </ul>
         </nav>
     </header>
@@ -24,7 +24,9 @@
         <section id="ficha">
             <img src="imagens/iconPort.jpg" alt="iconePaulo" class="foto">
             <h1>Paulo Victor</h1>
-            <p>Desenvolvedor de Software</p>
+            <p>Desenvolvedor de Software<br>
+                Sou estudante de Análise e Desenvolvimento de Sistemas com interesse em desenvolvimento full stack, especialmente back-end com Java e Python. Tenho experiência prática com desenvolvimento web, suporte técnico e manutenção de computadores, além de facilidade para aprender novas tecnologias. Busco criar soluções funcionais, evoluir constantemente e transformar ideias em projetos bem estruturados.
+            </p>
             <div id="social">
                 <a href="https://github.com/seu-usuario" target="_blank"><i class="fa-brands fa-github"></i></a>
                 <a href="https://linkedin.com/in/seu-usuario" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
@@ -90,10 +92,10 @@
                     <div class="item">
                         <div class="info">
                             <span class="nome"><i class="fa-solid fa-code"></i> Git e GitHub</span>
-                            <span class="porcent">90%</span>
+                            <span class="porcent">70%</span>
                         </div>
                         <div class="barra">
-                            <div class="progresso" style="width: 90%;"></div>
+                            <div class="progresso" style="width: 70%;"></div>
                         </div>
                     </div>
                     <div class="item">
@@ -108,10 +110,10 @@
                     <div class="item">
                         <div class="info">
                             <span class="nome"><i class="fa-solid fa-code"></i> Canva</span>
-                            <span class="porcent">90%</span>
+                            <span class="porcent">70%</span>
                         </div>
                         <div class="barra">
-                            <div class="progresso" style="width: 90%;"></div>
+                            <div class="progresso" style="width: 70%;"></div>
                         </div>
                     </div>
                     <div class="item">
@@ -130,13 +132,8 @@
                         </div>
                         <div class="barra">
                             <div class="progresso" style="width: 75%;"></div>
-
                         </div>
                         </div>
-                        <div class="barra">
-                            <div class="progresso" style="width: 75%;"></div>
-                        </div>
-                    </div>
                     <div class="item">
                         <div class="info">
                             <span class="nome"><i class="fa-solid fa-code"></i> Liderança e gestão de projetos</span>
@@ -146,16 +143,121 @@
                             <div class="progresso" style="width: 25%;"></div>
                         </div>
                     </div>
+                    <div class="item">
+                        <div class="info">
+                            <span class="nome"><i class="fa-solid fa-code"></i> PróAtividade</span>
+                            <span class="porcent">50%</span>
+                        </div>
+                        <div class="barra">
+                            <div class="progresso" style="width: 50%;"></div>
+                        </div>
+                    </div>
                 </div>
             </article>
 
             <article id="formacao">
                 <h2><i class="fa-solid fa-graduation-cap"></i>Formação Acadêmica</h2>
 
+                <div id="formacao-container">
+                    <div class="curso">
+                        <p class="periodo">2019-2021</p>
+                        <h3 class="instituicao">CTA - centro e tecnologia aplicada</h3>
+                        <p class="descricao">Técnico em informática basica</p>
+                    </div>
+                    <div class="curso">
+                        <p class="periodo">2019-2021</p>
+                        <h3 class="instituicao">CTA - centro de tecnologia aplicada</h3>
+                        <p class="descricao">Ensino médio</p>
+                    </div>
+                    <div class="curso">
+                        <p class="periodo">02/2023 - 08/2023</p>
+                        <h3 class="instituicao">Instituto da Providencia</h3>
+                        <p class="descricao">Curso de Empregabilidade</p>
+                    </div>
+                    <div class="curso">
+                        <p class="periodo">02/2025 - 08/2026</p>
+                        <h3 class="instituicao">Curso em Vídeo</h3>
+                        <p class="descricao">Curso de Front-End(HTML, CSS, JavaScript)</p>
+                    </div>
+                </div>
+
             </article>
 
             <article id="projetos">
                 <h2><i class="fa-solid fa-diagram-project"></i>Projetos</h2>
+                
+                <div id="projeto-container">
+                    <div class="projeto">
+                        <a href="projeto-portfolio/index.html" class="link">
+                            <img src="imagens/projeto-01-videos.jpg" alt="Projeto 01" class="foto">
+                        </a>
+                        <div class="projeto-info">
+                            <p class="periodo">2025</p>
+                            <h3 class="titulo">Projeto de Video</h3>
+                            <p class="descricao">Desenvolvimento de um projeto de video utilizando HTML, CSS.</p>
+                            <details class="descricao">
+                                <summary>Ver detalhes</summary>
+                                <p>Este projeto consiste em desenvolver um vídeo explicativo sobre os conceitos de programação web, utilizando tecnologias modernas para criar uma experiência visual atraente e informativa.</p>
+                            </details>
+                        </div>
+                    </div>
+                    <div class="projeto">
+                                <a href="https://paulovictoroc.github.io/projeto-cordel/" class="projeto-link">
+                            <img src="imagens/projeto-02-cordel.jpg" alt="Projeto 02" class="foto">
+                        </a>
+                        <div class="projeto-info">
+                            <p class="periodo">2025</p>
+                            <h3 class="titulo">Projeto Cordel</h3>
+                            <p class="descricao">Desenvolvido para testar o efeito de transição paralax</p>
+                            <details class="descricao">
+                                <summary>Ver detalhes</summary>
+                                <p>Projeto desevolvido para mostrar o efeito paralax em imagens e textos.</p>
+                            </details>
+                        </div>
+                    </div>
+                    <div class="projeto">
+                        <a href="https://paulovictoroc.github.io/mini-projeto/" class="link">
+                            <img src="imagens/projeto-03-android.jpg" alt="Projeto 03" class="foto">
+                        </a>
+                        <div class="projeto-info">
+                            <p class="periodo">2025</p>
+                            <h3 class="titulo">Projeto Android</h3>
+                            <p class="descricao">Desenvolvido para treinar conteúdos e imagens dinâmicas</p>
+                            <details class="descricao">
+                                <summary>Ver detalhes</summary>
+                                <p>Projeto desenvolvido para treinar conteúdos e imagens dinâmicas, utilizando tecnologias modernas de desenvolvimento mobile.</p>
+                            </details>
+                        </div>
+                    </div>
+                    <div class="projeto">
+                        <a href="https://paulovictoroc.github.io/projeto-RedeSociais/" class="link">
+                            <img src="imagens/projeto-04-links.jpg" alt="Projeto 04" class="foto">
+                        </a>
+                        <div class="projeto-info">
+                            <p class="periodo">2025</p>
+                            <h3 class="titulo">Projeto Links</h3>
+                            <p class="descricao">Desenvolvido para treinar a criação de links e navegação</p>
+                            <details class="descricao">
+                                <summary>Ver detalhes</summary>
+                                <p>Projeto desenvolvido para treinar a criação de links e navegação, utilizando tecnologias modernas de desenvolvimento web.</p>
+                            </details>
+                        </div>
+                    </div>
+                    <div class="projeto">
+                        <a href="https://paulovictoroc.github.io/projeto-login/" class="link">
+                            <img src="imagens/projeto-05-login.jpg" alt="Projeto 05" class="foto">
+                        </a>
+                        <div class="projeto-info">
+                            <p class="periodo">2025</p>
+                            <h3 class="titulo">Projeto Login</h3>
+                            <p class="descricao">Desenvolvido para treinar a criação de formulários de login</p>
+                            <details class="descricao">
+                                <summary>Ver detalhes</summary>
+                                <p>Projeto desenvolvido para treinar a criação de formulários de login, utilizando tecnologias modernas de desenvolvimento web.</p>
+                            </details>
+                        </div>
+                    </div>
+                </div>
 
             </article>
         </section>
